@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple vueshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      }
+
+      li {
+      float: left;
+      }
+
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 6px 16px;
+      text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+      background-color: #111;
+      }
+
+      .active {
+      background-color: #4CAF50;
+      }
+    </style>
+
+
+
+  </head>
+  <body>
+    <ul>
+        <li><i class="fa fa-cloud" style="font-size:300%;color:lightblue;"></i></li>
+        <li><a href="/home">+ Home page</a></li></li>
+        <li><a href="/makePurchase">+ Make purchase</a></li></li>
+    </ul>
+
+    <div id="app">
+      <router-view></router-view>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

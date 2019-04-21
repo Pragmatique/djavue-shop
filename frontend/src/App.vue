@@ -1,5 +1,6 @@
 <template lang="pug">
   #app
+    bar
     section.container.grid-960
       .columns
         .column.col-2
@@ -11,12 +12,14 @@
 <script>
 import CreateProduct from './components/CreateProduct'
 import ProductsInOrderList from './components/ProductsInOrderList'
+import Bar from './components/Bar'
 
 export default {
   name: 'app',
   components: {
     'create-product': CreateProduct,
-    'productorder-list': ProductsInOrderList
+    'productorder-list': ProductsInOrderList,
+    'bar': Bar
   }
 
 }

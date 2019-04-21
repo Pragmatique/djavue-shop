@@ -1,5 +1,5 @@
 from django.shortcuts import render_to_response
-from rest_framework import viewsets
+from rest_framework import viewsets, generics
 
 from .models import Product, Order, ProductInOrder
 from .serializers import ProductSerializer, OrderSerializer, ProductInOrderSerializer

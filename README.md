@@ -1,9 +1,3 @@
-<a href="https://github.com/apirobot/django-vue-simplenote">
-    <p align="center">
-      <img src="https://raw.githubusercontent.com/apirobot/django-vue-simplenote/master/other/preview.gif" alt="django-vue-simplenote">
-    </p>
-</a>
-
 ---
 
 ## Description

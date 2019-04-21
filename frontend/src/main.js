@@ -29,5 +29,5 @@ new Vue({
   store,
   template: '<App/>',
   components: {App, Home, CreateProduct},
-  router
+  router: router
 })

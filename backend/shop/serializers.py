@@ -29,5 +29,3 @@ class ProductInOrderSerializer(serializers.ModelSerializer):
 
     def get_price(self):
         return self.ProductInOrder.price()
-
-

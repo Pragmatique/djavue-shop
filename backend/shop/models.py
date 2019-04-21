@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
 
 
 class Product(models.Model):
@@ -51,4 +52,7 @@ class ProductInOrder(models.Model):
 
     def price(self):
         return self.product.price * self.count
+
+######################################################################################
+
 

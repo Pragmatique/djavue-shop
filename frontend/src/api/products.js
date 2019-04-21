@@ -2,6 +2,7 @@ import { HTTP } from './common'
 
 export const Product = {
   create (config) {
+    console.log(config)
     return HTTP.post('/products/', config).then(response => {
       return response.data
     })
